@@ -12,7 +12,12 @@
     4/2 == 2.0
     ```
 
-## 数组list
++ 异或
+    ```
+    3^3 == 0
+    ```
+
+## 数组 [list](https://www.cnblogs.com/adampei-bobo/p/6640581.html)
 
 + 转 set集合 过滤重复元素
     ```
@@ -46,6 +51,16 @@
     l2 = copy.deepcopy(l1)
     # 复制一份，完全没有变化，不会受l1的影响。l1改变，l2不会跟着改变。
     ```
+
++ List .sort()方法
+    ```
+    list.sort(cmp=None, key=None, reverse=False)
+    # cmp -- 可选参数, 如果指定了该参数会使用该参数的方法进行排序。
+    # key -- 主要是用来进行比较的元素，只有一个参数，具体的函数的参数就是取自于可迭代对象中，指定可迭代对象中的一个元素来进行排序。
+    # reverse -- 排序规则，reverse = True 降序， reverse = False 升序（默认）。
+    ```
+
++ 
 
 
 
